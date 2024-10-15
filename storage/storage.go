@@ -37,7 +37,6 @@ func (s *Storage) Get(key string) *string {
 func (s *Storage) GetKind(key string) string {
 	if _, err := strconv.Atoi(s.data[key]); err != nil {
 		return "S"
-	} else {
-		return "D"
 	}
+	return "D"
 }
