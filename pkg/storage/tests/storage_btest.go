@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"1hw/storage"
+	"1hw/pkg/storage"
 
 	"strconv"
 	"testing"
